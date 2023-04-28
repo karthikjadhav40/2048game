@@ -1,0 +1,165 @@
+* {
+	transition: .2s;
+	-webkit-user-select: none;
+	margin:  0;
+	padding: 0;
+	font-family: Arial;
+}
+
+body {
+	background: #FEF8F1;
+	width:  100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.button {
+	outline: none;
+	border: none;
+}
+
+#game {
+	background: #FEF8F1;
+	width:  480px;
+	height: 600px;
+}
+
+#title {
+	transition: .1s;
+	position: absolute;
+	color: #756F68;
+	font-size: 60px;
+	left: 40px;
+	top:  36px;
+}
+
+.score-block {
+	background: #CBB9B4;
+	position: absolute;
+	color: #FFF;
+	font-size: 18px;
+	width: 95px;
+	height: 43px;
+	border-radius: 2px;
+}
+
+#score {
+	left: 245px;
+	top: 50px;
+}
+
+#score-output {
+	display: inline-block;
+	transition: .2s;
+	font-weight: bold;
+}
+
+
+
+#new-game {
+	transition: .2s;
+	background: #907A69;
+	position: absolute;
+	color: #FFF;
+	font-size: 16px;
+	width: 95px;
+	height: 30px;
+	left: 345px;
+	top: 110px;
+	border-radius: 2px;}
+#new-game:hover {
+	background: #b59984;
+}
+
+#theme-change-button {
+	transition: .2s;
+	background: #907A69;
+	position: absolute;
+	color: #FFF;
+	font-size: 16px;
+	width: 95px;
+	height: 30px;
+	left: 245px;
+	top: 110px;
+	border-radius: 2px;}
+#theme-change-button:hover {
+	background: #b59984;
+}
+
+#game-grid {
+	position: absolute;
+	background: #BDACA2;
+	width:  400px;
+	height: 400px;
+	left: 40px;
+	top:  160px;
+	border-radius: 5px;
+	border-spacing: 12px;
+}
+
+td {
+	background: #CCC0B4;
+	width:  85px;
+	height: 85px;
+	border-radius: 5px;
+}
+
+.blocks {
+	transition: 150ms transform, 250ms left, 250ms top;
+	position: absolute;
+	background: #ECC501;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 34px;
+	color: #FFF;
+	width:  85px;
+	height: 85px;
+	border-radius: 5px;
+}
+.block-2 {
+	background: #F0E4DC;
+	color: #786C63;
+	font-size: 40px;
+}
+.block-4 {
+	background: #ECE0C9;
+	color: #786C63;
+	font-size: 40px;
+}
+.block-8 {
+	background: #F2B079;
+	font-size: 40px;
+}
+.block-16 {
+	background: #EC8D54;
+	font-size: 40px;
+}
+.block-32 {
+	background: #F77B61;
+	font-size: 40px;
+}
+.block-64 {
+	background: #E95937;
+	font-size: 40px;
+}
+.block-128 {
+	background: #F4D86D;
+	font-size: 40px;
+}
+.block-256 {
+	background: #F1D04C;
+	font-size: 40px;
+}
+.block-512 {
+	background: #ECC75B;
+	font-size: 40px;
+}
+.block-1024 {
+	background: #E9C158;
+}
+.block-2048 {
+	background: #ECC501;
+}
